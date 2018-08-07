@@ -11,7 +11,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UdpScreenReceiver.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UdpScreenReceiver.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UdpScreenReceiver.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -33,6 +33,35 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SendUdpFrames.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SendUdpFrames.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <marker date="1533618850592" expanded="false" signature="6:179" ph="..." />
+                <marker date="1533618850592" expanded="true" signature="315:2857" ph="{...}" />
+                <marker date="1533618850592" expanded="true" signature="592:758" ph="{...}" />
+                <marker date="1533618850592" expanded="true" signature="928:2280" ph="{...}" />
+                <marker date="1533618850592" expanded="true" signature="1059:2216" ph="{...}" />
+                <marker date="1533618850592" expanded="true" signature="1067:1225" ph="/* used for timing costly operations ... */" />
+                <marker date="1533618850592" expanded="true" signature="1243:1651" ph="{...}" />
+                <marker date="1533618850592" expanded="true" signature="1444:1588" ph="/* Debug.Log(Time.realtimeSinceStartup - start + &quot; readpixels&quot;); // timed @ .02s ... */" />
+                <marker date="1533618850592" expanded="true" signature="1656:1817" ph="/* next step is to encode the frame to jpeg, otherwise udp client throws &quot;TMI&quot; error ... */" />
+                <marker date="1533618850592" expanded="true" signature="1840:2049" ph="{...}" />
+                <marker date="1533618850592" expanded="true" signature="1896:2044" ph="/* Debug.Log(Time.realtimeSinceStartup - start + &quot; make jpg&quot;); // timed .035 seconds ... */" />
+                <marker date="1533618850592" expanded="true" signature="2100:2145" ph="{...}" />
+                <marker date="1533618850592" expanded="true" signature="2226:2274" ph="{...}" />
+                <marker date="1533618850592" expanded="true" signature="2326:2372" ph="{...}" />
+                <marker date="1533618850592" expanded="true" signature="2429:2651" ph="{...}" />
+                <marker date="1533618850592" expanded="true" signature="2725:2854" ph="{...}" />
+                <marker date="1533618850592" expanded="true" signature="2734:2793" ph="{...}" />
+                <marker date="1533618850592" expanded="true" signature="2817:2851" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -47,8 +76,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/UdpScreenSharingOculus.cs" />
-        <option value="$PROJECT_DIR$/SendUdpFrames.cs" />
         <option value="$PROJECT_DIR$/UdpScreenReceiver.cs" />
+        <option value="$PROJECT_DIR$/SendUdpFrames.cs" />
       </list>
     </option>
   </component>
@@ -113,12 +142,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533617555321</updated>
-      <workItem from="1533617557069" duration="1218000" />
+      <workItem from="1533617557069" duration="1502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1218000" />
+    <option name="totallyTimeSpent" value="1502000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -165,33 +194,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UdpScreenSharingOculus.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SendUdpFrames.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <marker date="1533618393564" expanded="true" signature="6:102" ph="..." />
-            <marker date="1533618393564" expanded="true" signature="224:2777" ph="{...}" />
-            <marker date="1533618393564" expanded="true" signature="512:678" ph="{...}" />
-            <marker date="1533618393564" expanded="true" signature="848:2200" ph="{...}" />
-            <marker date="1533618393564" expanded="true" signature="979:2136" ph="{...}" />
-            <marker date="1533618393564" expanded="true" signature="1163:1571" ph="{...}" />
-            <marker date="1533618393564" expanded="true" signature="1364:1508" ph="/* Debug.Log(Time.realtimeSinceStartup - start + &quot; readpixels&quot;); // .02s ... */" />
-            <marker date="1533618393564" expanded="true" signature="1760:1969" ph="{...}" />
-            <marker date="1533618393564" expanded="true" signature="1816:1964" ph="/* Debug.Log(Time.realtimeSinceStartup - start + &quot; make jpg&quot;); // .035 seconds for jpg @ 25 quality ... */" />
-            <marker date="1533618393564" expanded="true" signature="2020:2065" ph="{...}" />
-            <marker date="1533618393564" expanded="true" signature="2146:2194" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UdpScreenReceiver.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -208,6 +210,51 @@
             <marker date="1533618720718" expanded="true" signature="1721:2059" ph="{...}" />
             <marker date="1533618720718" expanded="true" signature="1747:1948" ph="{...}" />
             <marker date="1533618720718" expanded="true" signature="1982:2049" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UdpScreenSharingOculus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <marker date="1533617890790" expanded="true" signature="3:303" ph="/* ----------------------- ... */" />
+            <marker date="1533617890790" expanded="false" signature="310:399" ph="..." />
+            <marker date="1533617890790" expanded="true" signature="452:1462" ph="{...}" />
+            <marker date="1533617890790" expanded="true" signature="710:738" ph="{...}" />
+            <marker date="1533617890790" expanded="true" signature="792:859" ph="{...}" />
+            <marker date="1533617890790" expanded="true" signature="922:1186" ph="{...}" />
+            <marker date="1533617890790" expanded="true" signature="1266:1455" ph="{...}" />
+            <marker date="1533617890790" expanded="true" signature="1284:1364" ph="{...}" />
+            <marker date="1533617890790" expanded="true" signature="1394:1449" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SendUdpFrames.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1533618850592" expanded="false" signature="6:179" ph="..." />
+            <marker date="1533618850592" expanded="true" signature="315:2857" ph="{...}" />
+            <marker date="1533618850592" expanded="true" signature="592:758" ph="{...}" />
+            <marker date="1533618850592" expanded="true" signature="928:2280" ph="{...}" />
+            <marker date="1533618850592" expanded="true" signature="1059:2216" ph="{...}" />
+            <marker date="1533618850592" expanded="true" signature="1067:1225" ph="/* used for timing costly operations ... */" />
+            <marker date="1533618850592" expanded="true" signature="1243:1651" ph="{...}" />
+            <marker date="1533618850592" expanded="true" signature="1444:1588" ph="/* Debug.Log(Time.realtimeSinceStartup - start + &quot; readpixels&quot;); // timed @ .02s ... */" />
+            <marker date="1533618850592" expanded="true" signature="1656:1817" ph="/* next step is to encode the frame to jpeg, otherwise udp client throws &quot;TMI&quot; error ... */" />
+            <marker date="1533618850592" expanded="true" signature="1840:2049" ph="{...}" />
+            <marker date="1533618850592" expanded="true" signature="1896:2044" ph="/* Debug.Log(Time.realtimeSinceStartup - start + &quot; make jpg&quot;); // timed .035 seconds ... */" />
+            <marker date="1533618850592" expanded="true" signature="2100:2145" ph="{...}" />
+            <marker date="1533618850592" expanded="true" signature="2226:2274" ph="{...}" />
+            <marker date="1533618850592" expanded="true" signature="2326:2372" ph="{...}" />
+            <marker date="1533618850592" expanded="true" signature="2429:2651" ph="{...}" />
+            <marker date="1533618850592" expanded="true" signature="2725:2854" ph="{...}" />
+            <marker date="1533618850592" expanded="true" signature="2734:2793" ph="{...}" />
+            <marker date="1533618850592" expanded="true" signature="2817:2851" ph="{...}" />
           </folding>
         </state>
       </provider>
