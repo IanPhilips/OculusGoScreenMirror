@@ -1,4 +1,4 @@
-# OculusGoScreenMirror
+# OculusGoScreenMirror for Unity
 
 update: haven't tried this yet but this could be a better option if you don't want to do anything other than display the oculus screen: https://pixvana.com/sharing-your-oculus-go-screen-on-your-laptop/
 
